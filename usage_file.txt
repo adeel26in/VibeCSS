@@ -6,4 +6,6 @@ If you dare to use experimental CSS features use this which gives you access:
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/adeel26in/VibeCSS@v1.1.0/vibecss_experimental.css">
 
+Unstable: <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/adeel26in/VibeCSS@main/vibecss.css">
+
 Happy coding!
