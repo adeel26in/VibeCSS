@@ -1,0 +1,118 @@
+:root {
+  --card-gap-small: 1rem;
+  --card-gap-large: 2rem;
+}
+
+/* Simulated concept of how if() may work in the future */
+.card {
+  /* Example: margin: if(width() > 400px, 2rem, 1rem); */
+  margin: var(--card-gap-small);
+}
+
+@media (min-width: 400px) {
+  .card {
+    margin: var(--card-gap-large);
+  }
+}
+
+/* ==========================================================================
+   2. CSS Mixins (Proposed @mixin and @define-mixin)
+   -------------------------------------------------------------------------- */
+
+/* Conceptual usage only – not functional yet */
+@define-mixin card-shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+/* Example of how it might look */
+.card-shadow {
+  /* @mixin card-shadow; */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+/* ==========================================================================
+   4. font-size: fit (Future Proposal)
+   -------------------------------------------------------------------------- */
+
+/* Mock utility for "font-size: fit" behavior */
+.text-fit {
+  font-size: clamp(1rem, 5vw, 4rem);
+  line-height: 1.2;
+}
+
+/* ==========================================================================
+   5. Anchor Positioning (Partial Browser Support)
+   -------------------------------------------------------------------------- */
+
+/* Experimental anchor positioning */
+.tooltip {
+  position: absolute;
+  anchor-name: --tooltip-anchor;
+}
+
+.tooltip[data-anchor="top-right"] {
+  position-anchor: --tooltip-anchor;
+  inset-area: top right;
+}
+
+/* ==========================================================================
+   6. Layer Attribute Simulation
+   -------------------------------------------------------------------------- */
+
+/* Example of layering order – no functional effect yet */
+@layer reset, base, components, experimental;
+
+/* Example component layer */
+@layer experimental {
+  .btn-future {
+    background: linear-gradient(90deg, #8b5cf6, #3b82f6);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+  }
+
+  .btn-future:hover {
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  }
+}
+
+/* ==========================================================================
+   7. sibling-index() and sibling-count() (Future Selectors)
+   -------------------------------------------------------------------------- */
+
+/* Not functional yet – example only */
+.list-item {
+  /* Example idea: animation-delay: calc(sibling-index() * 200ms); */
+}
+
+/* Simulated demo */
+ul li:nth-child(1) { --i: 1; }
+ul li:nth-child(2) { --i: 2; }
+ul li:nth-child(3) { --i: 3; }
+ul li {
+  animation-delay: calc(var(--i) * 200ms);
+}
+
+/* ==========================================================================
+   8. Flex Wrap Balancing (Future Layout Feature)
+   -------------------------------------------------------------------------- */
+
+.flex-balance {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Simulated balance */
+  gap: 1rem;
+}
+
+/* ==========================================================================
+   9. Top Layer Simulation
+   -------------------------------------------------------------------------- */
+
+.top-layer {
+  position: fixed;
+  z-index: 9999; /* simulate top layer */
+  background: rgba(0, 0, 0, 0.05);
+}
