@@ -8,4 +8,4 @@ Includes tens of utilities to use and how to use it?:
 
 Just add this to your HTML file! 
 
-"<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/adeel26in/VibeCSS@v1.0.0/vibecss.css">"
+<p> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/adeel26in/VibeCSS@v1.0.0/vibecss.css"> </p>
