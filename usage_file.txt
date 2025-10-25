@@ -1,9 +1,9 @@
 Just include this in your HTML file: 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/adeel26in/VibeCSS@v1.0.0/vibecss.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/adeel26in/VibeCSS@v1.1.0/vibecss.css">
 
 If you dare to use experimental CSS features use this which gives you access:
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/adeel26in/VibeCSS@v1.0.0/vibecss_experimental.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/adeel26in/VibeCSS@v1.1.0/vibecss_experimental.css">
 
 Happy coding!
