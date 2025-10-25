@@ -16,7 +16,7 @@
 }
 
 /* ==========================================================================
-   2. CSS Mixins (Proposed @mixin and @define-mixin)
+   1. CSS Mixins (Proposed @mixin and @define-mixin)
    -------------------------------------------------------------------------- */
 
 /* Conceptual usage only – not functional yet */
@@ -33,7 +33,7 @@
 }
 
 /* ==========================================================================
-   4. font-size: fit (Future Proposal)
+   2. font-size: fit (Future Proposal)
    -------------------------------------------------------------------------- */
 
 /* Mock utility for "font-size: fit" behavior */
@@ -43,7 +43,7 @@
 }
 
 /* ==========================================================================
-   5. Anchor Positioning (Partial Browser Support)
+   3. Anchor Positioning (Partial Browser Support)
    -------------------------------------------------------------------------- */
 
 /* Experimental anchor positioning */
@@ -58,7 +58,7 @@
 }
 
 /* ==========================================================================
-   6. Layer Attribute Simulation
+   4. Layer Attribute Simulation
    -------------------------------------------------------------------------- */
 
 /* Example of layering order – no functional effect yet */
@@ -80,7 +80,7 @@
 }
 
 /* ==========================================================================
-   7. sibling-index() and sibling-count() (Future Selectors)
+   5. sibling-index() and sibling-count() (Future Selectors)
    -------------------------------------------------------------------------- */
 
 /* Not functional yet – example only */
@@ -97,7 +97,7 @@ ul li {
 }
 
 /* ==========================================================================
-   8. Flex Wrap Balancing (Future Layout Feature)
+   6. Flex Wrap Balancing (Future Layout Feature)
    -------------------------------------------------------------------------- */
 
 .flex-balance {
@@ -108,7 +108,7 @@ ul li {
 }
 
 /* ==========================================================================
-   9. Top Layer Simulation
+   7. Top Layer Simulation
    -------------------------------------------------------------------------- */
 
 .top-layer {
