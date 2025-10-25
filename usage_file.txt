@@ -1,0 +1,5 @@
+Just include this in your HTML file: 
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/adeel26in/VibeCSS@v1.0.0/vibecss.css">
+
+Happy coding!
