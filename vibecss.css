@@ -1,4 +1,4 @@
-/* --- Basic Layouts and Utilities --- */
+/* Main VibeCSS file */
 
 /* Box Sizing */
 *, *::before, *::after {
@@ -26,23 +26,60 @@ html, body {
 .grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
 .grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
 .grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
-.grid-gap { gap: 1rem; }
+.grid-cols-5 { grid-template-columns: repeat(5, 1fr); }
+.grid-gap-1 { gap: 1rem; }
+.grid-gap-2 { gap: 2rem; }
+.grid-gap-3 { gap: 3rem; }
+.grid-gap-4 { gap: 4rem; }
+.grid-gap-5 { gap: 5rem; }
 
 /* Typography */
-.text-center { text-align: center; }
-.text-left { text-align: left; }
-.text-right { text-align: right; }
+.txt-center { text-align: center; }
+.txt-left { text-align: left; }
+.txt-right { text-align: right; }
 .font-bold { font-weight: bold; }
 .font-italic { font-style: italic; }
-.text-uppercase { text-transform: uppercase; }
+.txt-uppercase { text-transform: uppercase; }
 
 /* Spacing */
-.margin-1 { margin: 1rem; }
-.margin-2 { margin: 2rem; }
-.padding-1 { padding: 1rem; }
-.padding-2 { padding: 2rem; }
+.m-0 { margin: 0; }
+.m-1 { margin: 1rem; }
+.m-1-5 { margin: 1.5rem; }
+.m-2 { margin: 2rem; }
+.m-2-5 { margin: 2.5rem; }
+.m-3 { margin: 3rem; }
+.m-3-5 { margin: 3.5rem; }
+.m-4 { margin: 4rem; }
+.m-4-5 { margin: 4.5rem; }
+.m-5 { margin: 5rem; }
+.p-0 { padding: 0; }
+.p-1 { padding: 1rem; }
+.p-1-5 { padding: 1.5rem; }
+.p-2 { padding: 2rem; }
+.p-2-5 { padding: 2.5rem; }
+.p-3 { padding: 3rem; }
+.p-3-5 { padding: 3.5rem; }
+.p-4 { padding: 4rem; }
+.p-4-5 { padding: 4.5rem; }
+.p-5 { padding: 5rem; }
 .space-x-1 { display: flex; gap: 1rem; }
+.space-x-1-5 { display: flex; gap: 1.5rem; }
+.space-x-2 { display: flex; gap: 2rem; }
+.space-x-2-5 { display: flex; gap: 2.5rem; }
+.space-x-3 { display: flex; gap: 3rem; }
+.space-x-3-5 { display: flex; gap: 3.5rem; }
+.space-x-4 { display: flex; gap: 4rem; }
+.space-x-4-5 { display: flex; gap: 4.5rem; }
+.space-x-5 { display: flex; gap: 5rem; }
 .space-y-1 { display: block; margin-bottom: 1rem; }
+.space-y-1-5 { display: block; margin-bottom: 1.5rem; }
+.space-y-2 { display: block; margin-bottom: 2rem; }
+.space-y-2-5 { display: block; margin-bottom: 2.5rem; }
+.space-y-3 { display: block; margin-bottom: 3rem; }
+.space-y-3-5 { display: block; margin-bottom: 3.5rem; }
+.space-y-4 { display: block; margin-bottom: 4rem; }
+.space-y-4-5 { display: block; margin-bottom: 4.5rem; }
+.space-y-5 { display: block; margin-bottom: 5rem; }
 
 /* --- Animations --- */
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
@@ -161,7 +198,7 @@ html[dir='rtl'] { direction: rtl; text-align: right; }
 html[dir='rtl'] .flex-row { flex-direction: row-reverse; }
 html[dir='rtl'] .button { margin-right: 0; margin-left: auto; }
 
-/* --- Tailwind-style Utilities --- */
+/* -Simple but useful utilities! */
 
 /* Background Colors */
 .bg-red-100 { background-color: var(--color-red-100); }
@@ -535,4 +572,3 @@ html[dir='rtl'] .button { margin-right: 0; margin-left: auto; }
 
 .border-black { border-color: var(--color-black); }
 .border-white { border-color: var(--color-white); }
-
