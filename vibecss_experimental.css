@@ -3,18 +3,6 @@
   --card-gap-large: 2rem;
 }
 
-/* Simulated concept of how if() may work in the future */
-.card {
-  /* Example: margin: if(width() > 400px, 2rem, 1rem); */
-  margin: var(--card-gap-small);
-}
-
-@media (min-width: 400px) {
-  .card {
-    margin: var(--card-gap-large);
-  }
-}
-
 /* ==========================================================================
    1. CSS Mixins (Proposed @mixin and @define-mixin)
    -------------------------------------------------------------------------- */
