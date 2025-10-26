@@ -4,10 +4,6 @@ Latest:
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/adeel26in/VibeCSS@v1.1.0/vibecss.css">
 
-Experimental Latest:
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/adeel26in/VibeCSS@v1.1.0/vibecss_experimental.css">
-
 If you dare to use experimental CSS features which might not be fully supported yet:
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/adeel26in/VibeCSS@v1.1.0/vibecss_experimental.css">
